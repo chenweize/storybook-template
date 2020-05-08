@@ -113,7 +113,7 @@ module.exports = [
         // 4. 不返回任何值，相当于返回undefined时，则可以自行调用res对象方法
 		handler: (req, res) => {
 			return {
-				title: '福建环宇通',
+				title: '来了老弟',
 				content: ""
 			};
 		}

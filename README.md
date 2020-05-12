@@ -134,18 +134,6 @@ module.exports = [
 - 工程模板中已经内置了一个上传文件的接口，在`mocks/upload/index.js`，前端可以通过`url=/upload`将文件上传到`public/`，或者可以指定上传路径，如`POST /upload/?path=/a/b`，则文件会上传到`public/a/b`。
 
 
-
-### 编译与构建
-
-```
-yarn build
-```
-
-### 运行单元测试
-```
-yarn test:unit
-```
-
 ### 更多配置
 See [Configuration Reference](https://cli.vuejs.org/config/).
 

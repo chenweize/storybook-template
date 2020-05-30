@@ -10,13 +10,15 @@
 
 ### 安装依赖项
 
+```
+npm install / yarn install
+```
+
 > 注意：
 > 1. 需要更改`package.json`文件的工程名称。
 > 2. 如果出现 ERROR: Found bindings for the following environments: - Windows 64-bit with Node.js ... 。
-     解决方案：在控制台输入 yarn add node-sass，然后重新运行即可
-```
-yarn install
-```
+     解决方案：在控制台输入 npm install node-sass / yarn add node-sass，然后重新运行即可
+
 
 ### 启动开发服务器
 
